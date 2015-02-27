@@ -1,0 +1,20 @@
+# UDACITY cs101 problem sets
+
+def bigger(a,b):
+    if a > b:
+        return a
+    else:
+        return b
+
+def biggest(a,b,c):
+    return bigger(a, bigger(b,c))
+
+def set_range():
+    # Your code here
+
+
+print set_range(10, 4, 7)
+#>>> 6  # since 10 - 4 = 6
+
+print set_range(1.1, 7.4, 18.7)
+#>>> 17.6 # since 18.7 - 1.1 = 17.6
